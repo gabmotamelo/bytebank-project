@@ -9,5 +9,7 @@ public class TesteFuncionario {
         System.out.println(joao.getNome());
         System.out.println(joao.getBonificacao());
 
+        //joao.salario= 300.0;
+
     }
 }
