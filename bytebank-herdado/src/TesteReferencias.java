@@ -5,9 +5,6 @@ public class TesteReferencias {
         geren1.setNome("Marcos");
         geren1.setSalario(5000.0);
 
-        Funcionario func = new Funcionario();
-        func.setSalario(2000.0);
-
         EditorVideo edit = new EditorVideo();
         edit.setSalario(2500.0);
 
@@ -16,7 +13,6 @@ public class TesteReferencias {
 
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(geren1);
-        controle.registra(func);
         controle.registra(edit);
         controle.registra(designer);
 

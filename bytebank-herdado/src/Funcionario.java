@@ -1,11 +1,12 @@
-public class Funcionario {
+//não pode instanciar objetos dessa classe porque ela é abstrata
+//Porém polimorfismo ainda continua exisitindo
+public abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
 
-    public double getBonificacao(){
-        return this.salario * 0.05;
-    }
+    //metodo não há corpo, não há implementação
+    public abstract double getBonificacao();
 
     public String getNome() {
         return nome;
