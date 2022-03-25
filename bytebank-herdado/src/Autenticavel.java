@@ -1,4 +1,4 @@
-//PODEMOS DIZER QUE UMA INTERFACE É UM CONTRATO QUE DEFINE OBRIGAÇÕES (ABSTRACTS)
+//PODEMOS DIZER QUE UMA INTERFACE É UM CONTRATO QUE DEFINE OBRIGAÇÕES (NÃO PRECISA COLOCAR ABSTRACTS)
 // contrato Autenticavel
     //quem assina esse contrato,precisa implementar
         //metodo setSenha
